@@ -1,0 +1,17 @@
+/*
+   面包屑公共样式
+*/
+
+.bread{
+    position: absolute;
+    top:50px;
+    left:30px;
+}
+
+.bread-item{
+    cursor: pointer;
+}
+
+.bread-bold{
+    font-weight:bold;
+}

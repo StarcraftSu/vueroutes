@@ -1,0 +1,78 @@
+/*
+    表格公共样式 为了盖住bootstrap默认样式而使用了 !important
+*/
+
+
+.table-wrapper{
+    margin:30px !important;
+    background:#fff;
+}
+
+.table-wrapper table{
+    width:100%;
+    border:1px solid #b3c4d4 !important;
+}
+
+caption{
+    text-align: center;
+    padding: 15px;
+    background-color: #318fdd;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.table-wrapper thead{
+    background:#d2e0ed !important;
+    color:#47627a !important;
+}
+
+.table-wrapper thead tr th{
+        font-weight:bold !important;
+        padding:10px 5px !important;
+        text-align:center;
+        font-weight:bold !important;
+        font-size:14px !important;
+        vertical-align: middle !important;
+        border-width:0 !important;
+        border:1px solid #b3c4d4 !important;
+}
+
+.table-wrapper tbody tr td{
+    padding:10px 5px !important;
+    text-align:center !important;
+    vertical-align:middle !important;
+    color:#666666 !important;
+    border:1px solid #b3c4d4 !important;
+    font-size:14px !important;
+}
+
+.table-wrapper table tbody button{
+    width:60px;
+    height:25px;
+    font-size:12px;
+    line-height:25px;
+    border-radius:4px;
+    margin:5px auto !important;
+    color:#fff;
+    outline: none;
+    border: 1px solid transparent;
+}
+    
+.table-btn-blue{
+    background: #69a5b9;
+}
+.table-btn-blue:hover,.table-btn-blue:active{
+    background: #5099ad;
+}
+
+.table-btn-red{
+    background: #b96d69;
+}
+.table-btn-red:hover,.table-btn-red:active{
+    background:#b54d4b;
+}
+
+table tbody button i{
+    margin-right:5px !important;
+}

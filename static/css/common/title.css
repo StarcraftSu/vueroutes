@@ -1,0 +1,38 @@
+/*
+   各种标题的公共样式
+*/
+
+.title-wrapper{
+    width:100%;
+    margin:30px;
+}
+
+/* 正式文件标题 */
+.title-wrapper .formal-file-title{
+    font-size:28px;
+}
+
+/* 文章页标题 */
+.title-wrapper .artical-title{
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* 一级标题 */
+.title-wrapper .level-1-title{
+    font-size:18px;
+}
+
+/* 一级标题 */
+.title-wrapper .lg-title{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.title-wrapper .left{
+    text-align: left;
+}
+
+.title-wrapper .center{
+    text-align: center;
+}

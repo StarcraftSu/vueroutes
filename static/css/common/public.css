@@ -1,0 +1,117 @@
+a{
+	color: #337ab7 !important;
+	text-decoration: underline !important;
+}
+
+input,textarea,select{
+	background-color:white;
+}
+
+.ccid_addBtn{
+	width: 25px;
+    height: 25px;
+    background: #00A500;
+    color: #ffffff !important;
+    text-align: center;
+    line-height: 25px;
+	font-size: 14px;
+	cursor:pointer;
+}
+
+.ccid_addBtn:hover{
+	background: #068706;
+}
+
+.ccid_addBtnDel{
+	background: #E50112;
+}
+
+.ccid_addBtnDel:hover{
+	background: #C70920;
+}
+
+
+/* 表格 */
+/* 一般表格 */
+.ccid_tableNomal{
+	font-size: 14px;
+	width: 100%;
+}
+.ccid_tableNomal table{
+	width: 100%;
+}
+.ccid_tableNomal th{
+	border: 1px solid #b3c4d4;
+	background: #d2e0eb;
+	color: #47627a;
+	padding: 5px;
+	text-align: center;
+	height: 40px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.ccid_tableNomal td{
+	border: 1px solid #b3c4d4;
+	background: #ffffff;
+	padding: 5px;
+	text-align: center;
+	color: #666666;
+	height: 40px;
+	box-sizing: border-box;
+}
+.ccid_tableNomal td span{
+    text-decoration: underline;
+    color:#0066cc;
+    cursor:pointer;
+    display:inline-block;
+    margin: 3px 0;
+}
+.ccid_thirdTable thead tr th{
+	color: #47627a;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ccid_thirdTable thead tr:first-child th{
+	background: #199ED8;
+	color: #ffffff;
+     font-size: 16px;
+     font-weight: 400;
+}
+/* .ccid_thirdTable thead tr:last-child th{
+	background: #E5E5E5;
+	color: #666666;
+	font-size: 14px;
+    font-weight: 400;
+} */
+
+/* 选项卡 */
+.ccid_producttabs{
+	width:100%;
+	overflow:hidden;
+	border-bottom:1px solid #199ed8;
+	margin-bottom:20px;
+	
+}
+.ccid_producttabs li{
+	width:12%;
+	margin-right:1%;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	float:left;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background:#cccccc;
+	color:#666666;
+	font-weight:bold;
+  cursor:pointer;
+  list-style: none;
+}
+.ccid_producttabs .active{
+	background:#199ed8;
+	color:#ffffff;
+}
+.ccid_producttabs .router-link-active{
+	background:#199ed8;
+	color:#ffffff;
+}

@@ -1,0 +1,9 @@
+/*
+   分页公共样式
+*/
+
+.pagination{
+    margin:2rem auto !important;
+    width: 100%;
+    text-align: center;
+}

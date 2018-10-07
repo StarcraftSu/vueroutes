@@ -1,0 +1,16 @@
+/* 
+    搜索框公共样式
+*/
+*{padding: 0;margin: 0;}
+body{font-family: 'Microsoft YaHei'}
+.clear{clear:both;}
+.examination{width:100%;}
+.examination .examination__input-wrapper{margin:15px 30px;height:auto;border: 1px solid #b3c4d4;padding:15px 60px 0px 5px;position: relative;}
+.examination .examination__input-wrapper .search-div{width:auto;height:30px;margin:0 0 15px 0;float:left;margin-right:10px;}
+.examination .examination__input-wrapper .search-div label{width:106px;font-weight:400;text-align:left;font-size: 12px;color: #333;}
+.examination .examination__input-wrapper .search-div input[type='text'],.examination .examination__input-wrapper .search-div select{width:180px;border: 1px solid #ccc;padding: 0px 5px;background-color: #FFFFFF;height:30px;color: #999;font-size: 12px;}
+.examination .examination__input-wrapper .search-div .el-date-editor.el-input input[type="text"]{padding-left: 30px;}
+.search-btn{height:100%;line-height:30px;width:60px;border-width:0;outline:0;color:#ffffff;background-color:#b3c4d4;position:absolute;right:0px;bottom:0px;text-align: center;}
+.search-btn i{top:50%;position: absolute;margin-top:-18px;left: 12px;display: inline-block;width: 37px;height: 36px;background: url('../../images/icon/icon_search_b1.png') no-repeat;}
+.search-btn:hover{cursor: pointer;}
+.search-btn:hover i{background: url('../../images/icon/icon_search_b2.png') no-repeat;}

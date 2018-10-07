@@ -1,0 +1,59 @@
+/*
+   按钮公共样式
+*/
+/* 
+按钮：字号：14px ┊高度：35px┊长度：150px┊圆角
+
+确定、提交、保存等按钮：底色：#318fdd
+
+取消、重置、返回等按钮：底色：#cecece */
+
+.button-wrapper{
+    width:80%;
+    margin:30px auto !important;
+    text-align: center;
+}
+
+.button-wrapper .btn-bottom{
+    display: inline-block;
+    padding: 6px 12px;
+    width:150px;
+    height:35px;
+    border-radius:5px;
+    margin:0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    transition:all .2s;
+}
+
+.button-wrapper .btn-blue{
+    color:white;
+    background-color:#318fdd;
+}
+
+.button-wrapper .btn-gray{
+    color:#666;
+    background-color:#cecece;
+}
+
+.button-wrapper .btn-blue:hover{
+    background-color:#337ab7;
+}
+
+.button-wrapper .btn-gray:hover{
+    color:#666;
+    background-color:#dbdbdb;
+}
