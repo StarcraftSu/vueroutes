@@ -1,7 +1,8 @@
 <template>
   <div id="app" class="container">
     <div class="row">
-      <home></home>
+      <h1>Routing</h1>
+      <router-view></router-view>
     </div>
   </div>
 </template>
@@ -21,7 +22,7 @@ export default {
   methods:{
     testJquery(){
       $('#app').on('click',()=>{
-        
+
       })
     }
   },

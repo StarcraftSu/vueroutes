@@ -1,7 +1,14 @@
 <template>
   <div id="home">
     <header></header>
-    <main>This is homepage</main>
+    <main>
+      <h2>
+        This is homepage
+      </h2>
+      <p>
+        Oh home sweet home!
+      </p>
+    </main>    
     <footer></footer>
   </div>
 </template>
