@@ -1,5 +1,7 @@
 <template>
-<div></div>
+  <div>
+    <h3>Edit User</h3>
+  </div>
 </template>
 
 <script>
@@ -13,6 +15,6 @@ export default {
 }
 </script>
 
-<style lang="scss" <style lang="scss" scoped>
+<style scoped>
 
 </style>

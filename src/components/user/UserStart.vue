@@ -2,9 +2,27 @@
   <div>
     <p>Please Select a User</p>
     <ul class="list-group">
-      <li class="list-group-item" style="cusor:pointer">User 1</li>
-      <li class="list-group-item" style="cusor:pointer">User 2</li>
-      <li class="list-group-item" style="cusor:pointer">User 3</li>
+      <router-link 
+        tag="li" 
+        to="/user/1" 
+        class="list-group-item"
+        style="cursor:pointer;" 
+        >User 1
+      </router-link>
+      <router-link 
+        tag="li" 
+        to="/user/2" 
+        class="list-group-item"
+        style="cursor:pointer;" 
+        >User 2
+      </router-link>
+      <router-link 
+        tag="li"
+        to="/user/3" 
+        class="list-group-item"
+        style="cursor:pointer;" 
+        >User 3 
+      </router-link>
     </ul>
   </div>
 </template>
@@ -20,6 +38,10 @@ export default {
 }
 </script>
 
-<style lang="scss" <style lang="scss" scoped>
-
+<style scoped>
+  .list-group-item:hover{
+    background-color: cornflowerblue;
+    opacity: .8;
+    color:white;
+  }
 </style>
