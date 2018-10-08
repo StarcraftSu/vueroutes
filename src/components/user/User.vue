@@ -1,5 +1,8 @@
 <template>
-<div></div>
+<div>
+  <h2>User</h2>
+  <p>I am a loyal user</p>
+</div>
 </template>
 
 <script>

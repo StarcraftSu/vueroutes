@@ -2,6 +2,7 @@
   <div id="app" class="container">
     <div class="row">
       <h1>Routing</h1>
+      <app-header></app-header>
       <router-view></router-view>
     </div>
   </div>
@@ -9,10 +10,12 @@
 
 <script>
 import home from './components/Home.vue'
+import header from './components/Header.vue'
 export default {
   name: 'app',
   components:{
-    home
+    home,
+    appHeader:header
   },
   data () {
     return {
