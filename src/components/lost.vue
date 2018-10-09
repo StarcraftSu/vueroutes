@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <h3>Edit User</h3>
-    <p>Local:{{$route.query.local}}</p>
-    <p>Analytics:{{$route.query.q}}</p>
+  <div id="lost">
+      <h3>Seems your are lost, want to come back to home?</h3>
+      <router-link tag="BUTTON" to='/'><span>HOME</span></router-link>
   </div>
 </template>
 

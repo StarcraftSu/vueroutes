@@ -25,7 +25,7 @@ export default {
   methods:{
     navigateToHome(){
       this.$router.push({
-        path:'/'
+        name:'主页'
       });
     }
   }

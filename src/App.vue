@@ -2,8 +2,10 @@
   <div id="app" class="container">
     <div class="row">
       <h1>Routing APP.VUE</h1>
-      <app-header></app-header>
+      <!-- <app-header></app-header> -->
+      <router-view name="header-top"></router-view>
       <router-view></router-view>
+      <router-view name="header-bottom"></router-view>
     </div>
   </div>
 </template>
