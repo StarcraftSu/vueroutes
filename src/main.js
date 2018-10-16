@@ -8,8 +8,24 @@ import {routes} from './routes'
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode:'history',
+  scrollBehavior(to,from,savedPosition){
+    if(to.hash){
+      return{selector:to.hash};
+    }
+    return{
+      x:0,
+      y:700
+    }
+  }
 });
+
+router.beforeEach((to,from,next)=>{
+  //必须有next方法才能继续
+  //next(false)终止跳转
+  next();
+})
 
 new Vue({
   el: '#app',
